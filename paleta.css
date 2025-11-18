@@ -1,0 +1,60 @@
+/* paleta.css */
+.back-btn {
+margin-top: 25px;
+padding: 12px 20px;
+border: none;
+border-radius: 10px;
+background: var(--vinotinto);
+color: white;
+font-size: 1rem;
+cursor: pointer;
+transition: 0.3s ease;
+}
+
+
+.back-btn:hover {
+background: var(--rosado);
+color: var(--vinotinto);
+}
+
+
+/* paleta.css */
+:root {
+--beige: #f5e9dd;
+--rosado: #f8c8d8;
+--vinotinto: #7a1f3d;
+}
+
+
+.paleta-body {
+background: var(--beige);
+padding: 20px;
+text-align: center;
+margin: 0;
+font-family: Arial, sans-serif;
+}
+
+
+.paleta-text {
+color: var(--vinotinto);
+font-size: 1.8rem;
+margin-bottom: 30px;
+}
+
+
+.palette-grid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 200px);
+gap: 15px;
+width: 90%;
+margin: 0 auto;
+}
+
+
+.color-box {
+border-radius: 12px;
+background: var(--rosado);
+transition: 0.3s ease;
+}
+

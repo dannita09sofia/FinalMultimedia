@@ -1,0 +1,53 @@
+/* style.css */
+:root {
+--beige: #f5e9dd;
+--rosado: #f8c8d8;
+--vinotinto: #7a1f3d;
+}
+
+
+body {
+margin: 0;
+background: var(--beige);
+font-family: Arial, sans-serif;
+}
+
+
+.container {
+padding: 40px;
+text-align: center;
+}
+
+
+h1 {
+color: var(--vinotinto);
+font-size: 3rem;
+margin-bottom: 40px;
+}
+
+
+.buttons {
+display: flex;
+flex-direction: column;
+gap: 20px;
+max-width: 300px;
+margin: 0 auto;
+}
+
+
+button {
+padding: 15px;
+border: none;
+border-radius: 12px;
+font-size: 1.1rem;
+cursor: pointer;
+background: var(--rosado);
+color: var(--vinotinto);
+transition: 0.3s ease;
+}
+
+
+button:hover {
+background: var(--vinotinto);
+color: white;
+}
