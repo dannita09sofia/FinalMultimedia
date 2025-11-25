@@ -1,0 +1,94 @@
+:root {
+  --beige: #f5e9dd;
+  --rosado: #f8c8d8;
+  --vinotinto: #7a1f3d;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--beige);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+
+
+#tituloPagina {
+  margin-top: 25px;
+  font-size: 2rem;
+  color: var(--vinotinto);
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+#tituloPagina:hover {
+  color: var(--rosado);
+}
+
+
+#contenedorGeneral {
+  padding: 20px;
+}
+
+
+#contenedorPersonaje {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.imagen {
+  width: 150px;
+  height: 170px;
+  object-fit: contain;
+  background: var(--rosado);
+  border-radius: 12px;
+  padding: 10px;
+  margin: 10px 0;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 8px rgba(122, 31, 61, 0.15);
+}
+
+.imagen:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(122, 31, 61, 0.25);
+}
+
+
+#boton {
+  margin-top: 25px;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 10px;
+  background: var(--vinotinto);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#boton:hover {
+  background: var(--rosado);
+  color: var(--vinotinto);
+}
+
+
+.back-btn {
+  margin-top: 25px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: var(--vinotinto);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.back-btn:hover {
+  background: var(--rosado);
+  color: var(--vinotinto);
+}

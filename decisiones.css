@@ -1,0 +1,81 @@
+:root {
+    --beige: #f5e9dd;
+    --rosado: #f8c8d8;
+    --vinotinto: #7a1f3d;
+}
+
+.dec-body {
+    background: var(--beige);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+.dec-title {
+    color: var(--vinotinto);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.dec-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 350px;
+    margin: 0 auto;
+    gap: 12px;
+}
+
+.dec-inputs input {
+    padding: 12px;
+    border: 2px solid var(--vinotinto);
+    border-radius: 10px;
+    background: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+.dec-inputs input:focus {
+    border-color: var(--rosado);
+}
+
+.decidir-btn {
+    margin-top: 25px;
+    padding: 12px 20px;
+    background: var(--vinotinto);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.decidir-btn:hover {
+    background: var(--rosado);
+    color: var(--vinotinto);
+}
+
+.resultado {
+    margin-top: 30px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--vinotinto);
+    min-height: 40px;
+}
+
+.back-btn {
+    margin-top: 35px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background: var(--vinotinto);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.back-btn:hover {
+    background: var(--rosado);
+    color: var(--vinotinto);
+}
